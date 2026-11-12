@@ -20,7 +20,7 @@ function App() {
           observer.unobserve(el);
         }
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    }, { threshold: 0.02, rootMargin: '0px 0px -20px 0px' });
 
     // Select all elements with data-aos attribute
     document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));

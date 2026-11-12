@@ -61,12 +61,15 @@ const Navbar = () => {
 
   const handleLinkClick = (e, id) => {
     e.preventDefault();
+    document.body.style.overflow = '';
     closeMenu();
     const target = document.getElementById(id);
     if (target) {
       const navH = 68;
       const y = target.getBoundingClientRect().top + window.scrollY - navH;
-      window.scrollTo({ top: y, behavior: 'smooth' });
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      });
     }
   };
 
