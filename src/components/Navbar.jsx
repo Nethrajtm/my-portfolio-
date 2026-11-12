@@ -78,9 +78,7 @@ const Navbar = () => {
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar" role="banner">
         <div className="nav-inner">
           <a href="#home" className="nav-logo" aria-label="Nethraj TM home" onClick={(e) => handleLinkClick(e, 'home')}>
-            <span className="logo-bracket">&lt;</span>
             <span className="logo-name">Nethraj</span>
-            <span className="logo-bracket">/&gt;</span>
           </a>
 
           <div className="nav-actions">

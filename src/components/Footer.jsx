@@ -21,9 +21,7 @@ const Footer = () => {
     <footer className="footer" role="contentinfo">
       <div className="footer-inner container">
         <div className="footer-logo">
-          <span className="logo-bracket">&lt;</span>
           <span>Nethraj T M</span>
-          <span className="logo-bracket">/&gt;</span>
         </div>
         <p className="footer-tagline">Building the future, one commit at a time.</p>
 
