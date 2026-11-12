@@ -15,8 +15,8 @@ const projectsData = [
   },
   {
     number: '02',
-    status: 'In Progress',
-    statusClass: 'proj-status--wip',
+    status: 'Complete',
+    statusClass: '',
     icon: '📰',
     title: 'News Sentiment Analyzer',
     description: 'An NLP-powered pipeline that scrapes news headlines, classifies sentiment (positive/negative/neutral) using VADER and transformer models, then visualises trends through an interactive dashboard with real-time filtering by topic and date range.',
